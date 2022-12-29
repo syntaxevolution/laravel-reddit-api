@@ -23,7 +23,7 @@ class RedditAPI implements RedditApiInterface
     {
         $this->oauth2 = new RedditOAuth2($username, $password, $appID, $appSecret, '(CodeWizz 0.1)', $endpointStandard);
         $this->ratelimiter = new RedditRateLimiter(true, 1);
-        $this->user_agent = '(CodeWizz 0.1)';
+        $this->user_agent = config('reddit-api.user-agent') ?: '(Syntax Evolution Laravel Reddit API 0.1)';
         $this->basic_endpoint = $endpointStandard;
         $this->oauth_endpoint = $endpointOAuth;
         $this->response_format = $responseFormat;
