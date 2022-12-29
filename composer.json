@@ -1,5 +1,5 @@
 {
-    "name": "codewizz/laravel-reddit-api",
+    "name": "syntaxevolution/laravel-reddit-api",
     "description": "Laravel Reddit API wrapper",
     "keywords": [
         "codewizz",
@@ -8,27 +8,27 @@
         "reddit",
         "api"
     ],
-    "homepage": "https://github.com/codewizz/laravel-reddit-api",
+    "homepage": "https://github.com/syntaxevolution/laravel-reddit-api",
     "license": "MIT",
     "authors": [
         {
-            "name": "Darius Šilkaitis",
-            "email": "darius@codewizz.com",
-            "homepage": "https://codewizz.com",
+            "name": "Syntax Evolution",
+            "email": "laravel-reddit-api@syntaxevolution.com",
+            "homepage": "https://www.syntaxevolution.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "*",
         "ext-curl": "*",
         "ext-json": "*",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+        "illuminate/support": "*"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "gtjamesa/php-standards": "^1.0",
-        "orchestra/testbench": "^4.0|^5.0|^6.0",
-        "phpunit/phpunit": "^8.4|^9.0"
+        "friendsofphp/php-cs-fixer": "*",
+        "gtjamesa/php-standards": "*",
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
