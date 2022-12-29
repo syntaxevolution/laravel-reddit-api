@@ -3,6 +3,8 @@
 return [
     'endpoint_standard' => 'https://www.reddit.com',
     'endpoint_oauth'    => 'https://oauth.reddit.com',
+    
+    'user-agent' => env('REDDIT_USER_AGENT', ''),
 
     'username'   => env('REDDIT_USERNAME', ''),
     'password'   => env('REDDIT_PASSWORD', ''),
